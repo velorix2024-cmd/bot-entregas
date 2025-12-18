@@ -1,5 +1,5 @@
 console.log("✅ google.js carregado de:", __filename);
-const { google } = require("googleapis");
+const credentials = JSON.parse(process.env.GOOGLE_CREDENTIALS);
 const path = require("path");
 const fs = require("fs");
 
