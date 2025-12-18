@@ -1,0 +1,7 @@
+service-account.json
+.env
+*.key
+*.pem
+google-credentials.json
+.env
+.env.txt
